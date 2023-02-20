@@ -20,7 +20,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       title: "Grocery Finds",
       projectInfo:
         "Architected a full stack application that allows users to compare the prices of products across multiple retailers.",
-      technologies: "React, Flask, PostgreSQL, Google Cloud Platform, RESTful APIs",
+      technologies:
+        "React, Flask, PostgreSQL, Google Cloud Platform, RESTful APIs",
       industry: "Web Development",
       url: {
         name: "www.example.com",
@@ -35,8 +36,6 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       },
       thumbImage: "images/projects/project-1.jpg",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
       ],
       categories: [filters.APP],
     },
@@ -44,7 +43,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       title: "BashGate",
       projectInfo:
         "Developed an iOS mobile app to aid college students in effectively managing their academic assignments.",
-      technologies: "Swift, CoreData, Firebase, SwiftUI, CoreAudio, MapKit Framework",
+      technologies:
+        "Swift, CoreData, Firebase, SwiftUI, CoreAudio, MapKit Framework",
       industry: "Mobile App Development",
       url: {
         name: "www.example.com",
@@ -59,19 +59,15 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       },
       thumbImage: "images/projects/project-2.jpg",
       sliderImages: [
-        "images/projects/project-2.jpg",
-        "images/projects/project-5.jpg",
       ],
       categories: [filters.APP],
     },
     {
-      title: "Project Title 3",
+      title: "Foodies",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
+        "Constructed a full stack social media website for users to share pictures, descriptions, and likes among each other about local restaurants.",
+      technologies: "JavaScript, HTML, CSS/Bootstrap, PHP, MySQL",
+      industry: "Web Development",
       url: {
         name: "www.example.com",
         link: "https://www.example.com",
@@ -85,19 +81,15 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       },
       thumbImage: "images/projects/project-3.jpg",
       sliderImages: [
-        "images/projects/project-3.jpg",
-        "images/projects/project-5.jpg",
       ],
       categories: [filters.APP],
     },
     {
-      title: "Project Title 4",
+      title: "Soil Moisture Sensor Data Analysis",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
+        "Implemented SARIMA model to build up prediction model of the future weather based on soil moisture measured from different depth to improve the irrigation water consumption and soil environment.",
+      technologies: "Python, Panda, Scikit-learn, NumPy, TensorFlow",
+      industry: "Data Analysis",
       url: {
         name: "www.example.com",
         link: "https://www.example.com",
@@ -111,19 +103,15 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       },
       thumbImage: "images/projects/project-4.jpg",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-4.jpg",
       ],
       categories: [filters.DATA],
     },
     {
-      title: "Project Title 5",
+      title: "Classification Models of Nearest Earth Object",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
+        "Developed and trained six different classification and clustering prediction models by Scikit-learn to classify the hazardous class of a Nearest Earth Object (NEO).",
       technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
+      industry: "Data Analysis",
       url: {
         name: "www.example.com",
         link: "https://www.example.com",
@@ -137,19 +125,14 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       },
       thumbImage: "images/projects/project-5.jpg",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
       ],
       categories: [filters.DATA],
     },
     {
-      title: "Project Title 6",
-      projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      title: "Landscapes",
+      projectInfo: "Captured the beauty and vastness of natural scenery.",
+      technologies: "Photography",
       industry: "Art & Design",
-      date: "July 16, 2019",
       url: {
         name: "www.example.com",
         link: "https://www.example.com",
@@ -161,19 +144,22 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-6.jpg",
+      thumbImage: "images/projects/landscape/mountain1.jpeg",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/landscape/burnet1.JPG",
+        "images/projects/landscape/burnet2.jpeg",
+        "images/projects/landscape/mountain2.jpeg",
+        "images/projects/landscape/star2.jpeg",
+        "images/projects/landscape/ginkgo.jpeg",
+        "images/projects/landscape/galveston.JPG",
       ],
       categories: [filters.PHOTOS],
     },
     {
-      title: "Project Title 7",
+      title: "City",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+        "Captures the vibrant energy and diversity of urban landscapes, showcasing the bustling streets, towering buildings, colorful lights, and unique characters that define each metropolis.",
+      technologies: "Photography",
       industry: "Art & Design",
       date: "July 16, 2019",
       url: {
@@ -187,10 +173,15 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-7.jpg",
+      thumbImage: "images/projects/city/firework.JPG",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/city/hongkong-1.JPG",
+        "images/projects/city/hongkong-2.JPG",
+        "images/projects/city/xiamen.jpg",
+        "images/projects/city/wuhan.jpeg",
+        "images/projects/city/hongkong-3.JPG",
+        "images/projects/city/hongkong-4.JPG",
+        "images/projects/city/tibet.jpeg",
       ],
       categories: [filters.PHOTOS],
     },

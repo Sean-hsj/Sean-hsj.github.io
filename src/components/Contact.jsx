@@ -126,21 +126,10 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 (darkTheme ? "social-icons-muted" : "")
               }
             >
-              <li className="social-icons-dribbble">
-                <Tooltip text="Dribbble" placement="top">
-                  <a
-                    href="http://www.dribbble.com/harnishdesign/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-dribbble" />
-                  </a>
-                </Tooltip>
-              </li>
               <li className="social-icons-twitter">
                 <Tooltip text="Twitter" placement="top">
                   <a
-                    href="https://twitter.com/harnishdesign/"
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -151,11 +140,11 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <li className="social-icons-facebook">
                 <Tooltip text="Facebook" placement="top">
                   <a
-                    href="http://www.facebook.com/harnishdesign/"
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fab fa-facebook-f" />
+                    <i className="fab fa-instagram" />
                   </a>
                 </Tooltip>
               </li>
@@ -226,7 +215,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     className="form-control"
                     rows={5}
                     required
-                    placeholder="Tell us more about your needs........"
+                    placeholder="What would you like to tell me........"
                     defaultValue={""}
                   />
                 </div>

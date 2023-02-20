@@ -10,8 +10,8 @@ import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 import ClassicHeader from "./components/ClassicHeader";
 import { commonConfig } from "./config/commonConfig";
-import TermsAndConditions from "./components/TermsAndConditions";
-import Disclaimer from "./components/Disclaimer";
+// import TermsAndConditions from "./components/TermsAndConditions";
+// import Disclaimer from "./components/Disclaimer";
 import PreLoader from "./components/Preloader";
 import { Tooltip } from "./components/Tooltip";
 
@@ -115,8 +115,8 @@ function App() {
           </span>
         </Tooltip>
 
-        <TermsAndConditions darkTheme={darkTheme}></TermsAndConditions>
-        <Disclaimer darkTheme={darkTheme}></Disclaimer>
+        {/* <TermsAndConditions darkTheme={darkTheme}></TermsAndConditions> */}
+        {/* <Disclaimer darkTheme={darkTheme}></Disclaimer> */}
       </div>
     </>
   );
