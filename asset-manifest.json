@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Sean-hsj.github.io/static/css/main.c54cc0b5.css",
-    "main.js": "/Sean-hsj.github.io/static/js/main.12c6b95a.js",
-    "static/js/787.e7ca59a9.chunk.js": "/Sean-hsj.github.io/static/js/787.e7ca59a9.chunk.js",
-    "static/media/home.mp4": "/Sean-hsj.github.io/static/media/home.bb43f9730aa282f0f01d.mp4",
-    "static/media/resume.pdf": "/Sean-hsj.github.io/static/media/resume.c84e759e31a37c0be66e.pdf",
-    "static/media/slick.svg": "/Sean-hsj.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/Sean-hsj.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/Sean-hsj.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/Sean-hsj.github.io/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/Sean-hsj.github.io/index.html",
-    "main.c54cc0b5.css.map": "/Sean-hsj.github.io/static/css/main.c54cc0b5.css.map",
-    "main.12c6b95a.js.map": "/Sean-hsj.github.io/static/js/main.12c6b95a.js.map",
-    "787.e7ca59a9.chunk.js.map": "/Sean-hsj.github.io/static/js/787.e7ca59a9.chunk.js.map"
+    "main.css": "/Sean-portfolio/static/css/main.dae27c1d.css",
+    "main.js": "/Sean-portfolio/static/js/main.a081e4cd.js",
+    "static/js/787.e7ca59a9.chunk.js": "/Sean-portfolio/static/js/787.e7ca59a9.chunk.js",
+    "static/media/home.mp4": "/Sean-portfolio/static/media/home.bb43f9730aa282f0f01d.mp4",
+    "static/media/resume.pdf": "/Sean-portfolio/static/media/resume.c84e759e31a37c0be66e.pdf",
+    "static/media/slick.svg": "/Sean-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Sean-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Sean-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Sean-portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Sean-portfolio/index.html",
+    "main.dae27c1d.css.map": "/Sean-portfolio/static/css/main.dae27c1d.css.map",
+    "main.a081e4cd.js.map": "/Sean-portfolio/static/js/main.a081e4cd.js.map",
+    "787.e7ca59a9.chunk.js.map": "/Sean-portfolio/static/js/787.e7ca59a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c54cc0b5.css",
-    "static/js/main.12c6b95a.js"
+    "static/css/main.dae27c1d.css",
+    "static/js/main.a081e4cd.js"
   ]
 }
