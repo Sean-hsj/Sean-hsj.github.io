@@ -133,7 +133,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-linkedin" />
                   </a>
                 </Tooltip>
               </li>
