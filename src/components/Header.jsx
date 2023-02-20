@@ -139,7 +139,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   style={{ cursor: "pointer" }}
                   activeClass="active"
                   spy
-                  to="testimonial"
+                  to="contact"
                   onClick={(e) => {
                     e.preventDefault();
                     setIsNavModalClose(true);
