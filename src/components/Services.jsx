@@ -4,34 +4,34 @@ const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
     {
-      name: "Graphic Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-palette",
-    },
-    {
-      name: "Web Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "Web Development",
+      desc: "Creating and maintaining websites, web applications, and other web-based solutions using a combination of programming languages, frameworks, and tools.",
       icon: "fas fa-desktop",
     },
     {
       name: "UI/UX Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-pencil-ruler",
-    },
-    {
-      name: "App Design & Develop",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "Composing user interfaces and experiences for digital products that are visually appealing, intuitive to use.",
       icon: "fas fa-paint-brush",
     },
     {
-      name: "Business Analysis",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-chart-area",
+      name: "Data Analysis",
+      desc: "Inspecting, cleaning, transforming, and modeling data to uncover useful information that can support decision-making.",
+      icon: "fas fa-database",
     },
     {
-      name: "SEO Marketing",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-bullhorn",
+      name: "Mobile App Development",
+      desc: "Designing, developing, and testing mobile software applications on iOS.",
+      icon: "fab fa-apple",
+    },
+    {
+      name: "Backend Development",
+      desc: "Creating and maintaining the server-side logic and database architecture of a web or mobile application.",
+      icon: "fas fa-terminal",
+    },
+    {
+      name: "Photography",
+      desc: "Capturing light to create images that depict the world around us.",
+      icon: "fas fa-camera",
     },
   ];
 
@@ -49,7 +49,7 @@ const Services = ({ classicHeader, darkTheme }) => {
               (darkTheme ? "text-white-50  opacity-1" : "text-light  opacity-4")
             }
           >
-            Services
+            Skills
           </h2>
           <p
             className={

@@ -1,5 +1,5 @@
 import React from "react";
-import resumeFile from "../documents/resume.pdf";
+// import resumeFile from "../documents/resume.pdf";
 const AboutUs = ({ classicHeader, darkTheme }) => {
   return (
     <section id="about" className={"section " + (darkTheme ? "bg-dark-1" : "")}>
@@ -33,19 +33,20 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Simone Olivia,</span> a Web
-              Developer
+              I'm <span className="text-primary">Shaojie Hou,</span> a Senior
+              Math major at University of Texas at Austin
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I help you build brand for your business at an affordable price.
-              Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+              Hi, My name is Shaojie Hou and I’m a senior college student major
+              in Mathematics. I enjoy traveling, coding, and problem-solving.
+              I’m also a shutterbug, interested in taking street snaps,
+              portraits, and landscapes.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              Delivering work within time and budget which meets client’s
-              requirements is our moto. Lorem Ipsum has been the industry's
-              standard dummy text ever when an unknown printer took a galley.
+              As a passionate software developer, I have been working on coding
+              for three years. I have worked on projects including web-based,
+              full-stack applications, mobile multi-threaded applications for
+              iOS, and front-end development using React.js.
             </p>
           </div>
           {/* About me content end */}
@@ -59,22 +60,21 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 }
               >
                 <li>
-                  <span className="fw-600 me-2">Name:</span>Simone Olivia
+                  <span className="fw-600 me-2">Name:</span>Shaojie Hou
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:chat@simone.com">chat@simone.com</a>
+                  <a href="mailto:houshaojie0619@gmail.com">houshaojie0619@gmail.com</a>
                 </li>
                 <li>
-                  <span className="fw-600 me-2">Age:</span>28
+                  <span className="fw-600 me-2">Age:</span>21
                 </li>
                 <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>Los Angeles,
-                  California
+                  <span className="fw-600 me-2">Based in:</span>Austin, Texas
                 </li>
               </ul>
               <a
-                href={resumeFile}
+                href=""
                 download
                 className="btn btn-primary rounded-pill"
               >
@@ -84,77 +84,13 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
           </div>
           {/* about me personal details end */}
         </div>
-        {/* projects rewards counting start */}
-        <div
-          className={
-            "brands-grid separator-border mt-5 " +
-            (darkTheme ? "separator-border-light" : "")
-          }
-        >
-          <div className="row">
-            <div className="col-6 col-md-3">
-              <div className="featured-box text-center">
-                <h4
-                  className={
-                    "text-12  mb-0 " +
-                    (darkTheme ? "text-white-50" : "text-muted")
-                  }
-                >
-                  <span>10</span>+
-                </h4>
-                <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Years Experiance
-                </p>
-              </div>
-            </div>
-            <div className="col-6 col-md-3">
-              <div className="featured-box text-center">
-                <h4
-                  className={
-                    "text-12  mb-0 " +
-                    (darkTheme ? "text-white-50" : "text-muted")
-                  }
-                >
-                  <span>250</span>+
-                </h4>
-                <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Happy Clients
-                </p>
-              </div>
-            </div>
-            <div className="col-6 col-md-3">
-              <div className="featured-box text-center">
-                <h4
-                  className={
-                    "text-12  mb-0 " +
-                    (darkTheme ? "text-white-50" : "text-muted")
-                  }
-                >
-                  <span>650</span>+
-                </h4>
-                <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Projects Done
-                </p>
-              </div>
-            </div>
-            <div className="col-6 col-md-3">
-              <div className="featured-box text-center">
-                <h4
-                  className={
-                    "text-12  mb-0 " +
-                    (darkTheme ? "text-white-50" : "text-muted")
-                  }
-                >
-                  <span>38</span>
-                </h4>
-                <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Get Awards
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* projects rewards counting end */}
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       </div>
     </section>
   );

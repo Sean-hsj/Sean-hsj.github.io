@@ -19,9 +19,8 @@ const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
                   handleNavClick("home");
                 }}
               >
-                Simone
+                Shaojie Hou
               </a>
-              . All Rights Reserved.
             </p>
           </div>
           <div className="col-lg-6">

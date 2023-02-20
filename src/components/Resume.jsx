@@ -4,50 +4,50 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
-      yearRange: "2000 - 2004",
-      title: "Computer Science",
-      place: "International University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2019 - 2023",
+      title: "Mathematics",
+      place: "University of Texas at Austin",
+      desc: "Bechalor of Science",
     },
     {
-      yearRange: "2005 - 2008",
-      title: "Bachelor Degree",
-      place: "University of California",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2019 - 2023",
+      title: "Elements of Computing",
+      place: "University of Texas at Austin",
+      desc: "Certificate",
     },
     {
-      yearRange: "2009 - 2012",
-      title: "Master Degree",
-      place: "Harvard University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2019 - 2023",
+      title: "Applied Statistical Modeling",
+      place: "University of Texas at Austin",
+      desc: "Certificate",
     },
   ];
 
-  const experienceDetails = [
-    {
-      yearRange: "2012 - 2013",
-      title: "Jr. UI UX Designer",
-      place: "Themeforest",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    },
-    {
-      yearRange: "2014 - 2016",
-      title: "Jr. Product Designer",
-      place: "Dribbble",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    },
-    {
-      yearRange: "2017 - 2019",
-      title: "Product Designer",
-      place: "Adobe",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    },
-  ];
+  // const experienceDetails = [
+  //   {
+  //     yearRange: "2012 - 2013",
+  //     title: "Jr. UI UX Designer",
+  //     place: "Themeforest",
+  //     desc: "Certificate",
+  //   },
+  //   {
+  //     yearRange: "2014 - 2016",
+  //     title: "Jr. Product Designer",
+  //     place: "Dribbble",
+  //     desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+  //   },
+  //   {
+  //     yearRange: "2017 - 2019",
+  //     title: "Product Designer",
+  //     place: "Adobe",
+  //     desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+  //   },
+  // ];
 
   const skills = [
     {
-      name: "Web Design",
-      percent: 65,
+      name: "Python",
+      percent: 80,
     },
     {
       name: "HTML/CSS",
@@ -58,16 +58,16 @@ const Resume = ({ classicHeader, darkTheme }) => {
       percent: 80,
     },
     {
+      name: "Swift",
+      percent: 70,
+    },
+    {
       name: "React JS",
       percent: 70,
     },
     {
-      name: "Angular Js",
+      name: "Flask",
       percent: 60,
-    },
-    {
-      name: "Bootstrap",
-      percent: 99,
     },
   ];
 
@@ -134,7 +134,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
               ))}
           </div>
           {/* My Experience */}
-          <div className="col-md-6">
+          {/* <div className="col-md-6">
             <h2
               className={
                 "text-6 fw-600 mb-4 " + (darkTheme ? "text-white" : "")
@@ -165,7 +165,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
                   </p>
                 </div>
               ))}
-          </div>
+          </div> */}
         </div>
         {/* My Skills */}
         <h2
@@ -208,7 +208,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
         <div className="text-center mt-5">
           <a
             className="btn btn-outline-secondary rounded-pill shadow-none"
-            href={resumeFile}
+            href=""
             download
           >
             Download CV

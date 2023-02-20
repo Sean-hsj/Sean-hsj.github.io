@@ -10,20 +10,18 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
   const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 
   const filters = {
-    DESIGN: "Desing",
-    BRAND: "Brand",
-    PHOTOS: "Photos",
+    APP: "Web/Mobile Development",
+    DATA: "Data Analysis",
+    PHOTOS: "Photography",
   };
 
   const projectsData = [
     {
-      title: "Project Title 1",
+      title: "Grocery Finds",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
+        "Architected a full stack application that allows users to compare the prices of products across multiple retailers.",
+      technologies: "React, Flask, PostgreSQL, Google Cloud Platform, RESTful APIs",
+      industry: "Web Development",
       url: {
         name: "www.example.com",
         link: "https://www.example.com",
@@ -40,16 +38,14 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/project-1.jpg",
         "images/projects/project-5.jpg",
       ],
-      categories: [filters.BRAND],
+      categories: [filters.APP],
     },
     {
-      title: "Project Title 2",
+      title: "BashGate",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
+        "Developed an iOS mobile app to aid college students in effectively managing their academic assignments.",
+      technologies: "Swift, CoreData, Firebase, SwiftUI, CoreAudio, MapKit Framework",
+      industry: "Mobile App Development",
       url: {
         name: "www.example.com",
         link: "https://www.example.com",
@@ -66,7 +62,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/project-2.jpg",
         "images/projects/project-5.jpg",
       ],
-      categories: [filters.DESIGN],
+      categories: [filters.APP],
     },
     {
       title: "Project Title 3",
@@ -92,7 +88,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/project-3.jpg",
         "images/projects/project-5.jpg",
       ],
-      categories: [filters.PHOTOS],
+      categories: [filters.APP],
     },
     {
       title: "Project Title 4",
@@ -118,7 +114,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/project-1.jpg",
         "images/projects/project-4.jpg",
       ],
-      categories: [filters.BRAND, filters.PHOTOS],
+      categories: [filters.DATA],
     },
     {
       title: "Project Title 5",
@@ -144,7 +140,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/project-1.jpg",
         "images/projects/project-5.jpg",
       ],
-      categories: [filters.DESIGN],
+      categories: [filters.DATA],
     },
     {
       title: "Project Title 6",
@@ -170,7 +166,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/project-1.jpg",
         "images/projects/project-5.jpg",
       ],
-      categories: [filters.BRAND],
+      categories: [filters.PHOTOS],
     },
     {
       title: "Project Title 7",
@@ -196,7 +192,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/project-1.jpg",
         "images/projects/project-5.jpg",
       ],
-      categories: [filters.DESIGN, filters.PHOTOS],
+      categories: [filters.PHOTOS],
     },
   ];
 
@@ -318,7 +314,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                             <h5 className="text-white fw-400">
                               {project.title}
                             </h5>
-                            <span className="text-light">Category</span>
+                            {/* <span className="text-light">Category</span> */}
                           </div>
                         </div>
                       </div>

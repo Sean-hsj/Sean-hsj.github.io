@@ -113,17 +113,6 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                             (darkTheme ? " text-white" : "")
                           }
                         >
-                          Client:
-                        </span>
-                        {projectDetails?.client}
-                      </li>
-                      <li>
-                        <span
-                          className={
-                            "text-dark font-weight-600 me-2" +
-                            (darkTheme ? " text-white" : "")
-                          }
-                        >
                           Technologies:
                         </span>
                         {projectDetails?.technologies}
@@ -135,7 +124,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                             (darkTheme ? " text-white" : "")
                           }
                         >
-                          Industry:
+                          Category:
                         </span>
                         {projectDetails?.industry}
                       </li>
@@ -146,17 +135,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                             (darkTheme ? " text-white" : "")
                           }
                         >
-                          Date:
-                        </span>
-                        {projectDetails?.date}
-                      </li>
-                      <li>
-                        <span
-                          className={
-                            "text-dark font-weight-600 me-2" +
-                            (darkTheme ? " text-white" : "")
-                          }
-                        >
+                        
                           URL:
                         </span>
                         <a

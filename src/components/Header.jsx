@@ -15,22 +15,24 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             duration={500}
             style={{ cursor: "pointer" }}
             to="home"
-            className="mb-lg-auto mt-lg-4"
+            className="mb-lg-auto mt-lg-4 text-center"
             onClick={(e) => {
               e.preventDefault();
               setIsNavModalClose(true);
             }}
           >
-            <span className="bg-dark-2 rounded-pill p-2 mb-lg-1 d-none d-lg-inline-block">
+
+            <span class="bg-dark-2 rounded-pill p-1 mb-lg-1 d-none d-lg-inline-block w-75">
               <img
-                className="img-fluid rounded-pill d-block"
+                class="img-fluid d-block mx-auto rounded-pill"
                 src="images/profile.jpg"
-                title="I'm Simone"
+                title="I'm Shaojie"
                 alt="profile"
               />
             </span>
+
             <h1 className="text-5 text-white text-center mb-0 d-lg-block">
-              Simone Olivia
+              Shaojie Hou
             </h1>
           </Link>
           {/* Logo End */}
@@ -138,23 +140,6 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   activeClass="active"
                   spy
                   to="testimonial"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setIsNavModalClose(true);
-                  }}
-                >
-                  Testimonial
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link "
-                  smooth
-                  duration={500}
-                  style={{ cursor: "pointer" }}
-                  activeClass="active"
-                  spy
-                  to="contact"
                   onClick={(e) => {
                     e.preventDefault();
                     setIsNavModalClose(true);

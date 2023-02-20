@@ -56,7 +56,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                     handleNavClick("contact");
                   }}
                 >
-                  Hire Me
+                  Contact Me
                 </a>
               </div>
             </div>
