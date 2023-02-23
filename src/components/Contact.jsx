@@ -126,10 +126,10 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 (darkTheme ? "social-icons-muted" : "")
               }
             >
-              <li className="social-icons-twitter">
-                <Tooltip text="Twitter" placement="top">
+              <li className="social-icons-linkedin">
+                <Tooltip text="Linkedin" placement="top">
                   <a
-                    href=""
+                    href="https://www.linkedin.com/in/shaojie-hou/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -137,10 +137,10 @@ const Contact = ({ classicHeader, darkTheme }) => {
                   </a>
                 </Tooltip>
               </li>
-              <li className="social-icons-facebook">
-                <Tooltip text="Facebook" placement="top">
+              <li className="social-icons-instagram">
+                <Tooltip text="Instagram" placement="top">
                   <a
-                    href=""
+                    href="https://www.instagram.com/sean.nef/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -162,7 +162,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <li className="social-icons-github">
                 <Tooltip text="Github" placement="top">
                   <a
-                    href="http://www.github.com/"
+                    href="https://github.com/Sean-hsj"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

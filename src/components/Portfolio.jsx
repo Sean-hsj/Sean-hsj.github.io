@@ -25,7 +25,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       industry: "Web Development",
       url: {
         name: "www.example.com",
-        link: "https://www.example.com",
+        link: "https://github.com/Sean-hsj",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -48,7 +48,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       industry: "Mobile App Development",
       url: {
         name: "www.example.com",
-        link: "https://www.example.com",
+        link: "https://github.com/Sean-hsj",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -70,7 +70,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       industry: "Web Development",
       url: {
         name: "www.example.com",
-        link: "https://www.example.com",
+        link: "https://github.com/Sean-hsj",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -92,7 +92,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       industry: "Data Analysis",
       url: {
         name: "www.example.com",
-        link: "https://www.example.com",
+        link: "https://github.com/Sean-hsj",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -114,7 +114,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       industry: "Data Analysis",
       url: {
         name: "www.example.com",
-        link: "https://www.example.com",
+        link: "https://github.com/Sean-hsj",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -135,7 +135,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       industry: "Art & Design",
       url: {
         name: "www.example.com",
-        link: "https://www.example.com",
+        link: "https://github.com/Sean-hsj",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -164,7 +164,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       date: "July 16, 2019",
       url: {
         name: "www.example.com",
-        link: "https://www.example.com",
+        link: "https://github.com/Sean-hsj",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
