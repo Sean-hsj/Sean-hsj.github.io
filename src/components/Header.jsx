@@ -150,6 +150,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
               </li>
             </ul>
           </div>
+          
           <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
             <li className="social-icons-facebook">
               <Tooltip text="Facebook" placement="top">
