@@ -10,16 +10,16 @@ const Resume = ({ classicHeader, darkTheme }) => {
       desc: "Bechalor of Science",
     },
     {
-      yearRange: "2019 - 2023",
+      yearRange: "Certificate",
       title: "Elements of Computing",
       place: "University of Texas at Austin",
-      desc: "Certificate",
+      desc: "",
     },
     {
-      yearRange: "2019 - 2023",
+      yearRange: "Certificate",
       title: "Applied Statistical Modeling",
       place: "University of Texas at Austin",
-      desc: "Certificate",
+      desc: "",
     },
   ];
 
