@@ -33,20 +33,25 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Shaojie Hou,</span> a Senior
-              Math major at University of Texas at Austin
+              I'm <span className="text-primary">Shaojie Hou,</span> graduate student in Computer Engineering
+              at UC San Diego.
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              Hi, My name is Shaojie Hou and I’m a senior college student major
-              in Mathematics. I enjoy traveling, coding, and problem-solving.
-              I’m also a shutterbug, interested in taking street snaps,
-              portraits, and landscapes.
+            I'm an incoming MS ECE student at UC San Diego, specializing in Computer Engineering. 
+            I hold a bachelor's degree in Mathematics from the University of Texas at Austin, 
+            where I developed a strong foundation in analytical thinking and problem-solving.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              As a passionate software developer, I have been working on coding
-              for three years. I have worked on projects including web-based,
-              full-stack applications, mobile multi-threaded applications for
-              iOS, and front-end development using React.js.
+            As a dedicated software developer, I thrive on solving complex problems and enjoy 
+            working on diverse projects. My experience spans web-based full-stack applications, 
+            iOS multi-threaded applications, and front-end development utilizing React.js. I am 
+            constantly seeking opportunities to expand my knowledge and apply my skills to 
+            real-world challenges.
+            </p>
+            <p className={darkTheme ? "text-white-50" : ""}>
+            Beyond coding, I have a passion for photography. Whether it's capturing vibrant street 
+            snaps, emotive portraits, or breathtaking landscapes, I find joy in freezing moments in 
+            time through my lens. Here is the <a href="" className="text-primary">link</a> to my Photo Portfolio.
             </p>
           </div>
           {/* About me content end */}
@@ -67,7 +72,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   <a href="mailto:houshaojie0619@gmail.com">houshaojie0619@gmail.com</a>
                 </li>
                 <li>
-                  <span className="fw-600 me-2">Age:</span>21
+                  <span className="fw-600 me-2">Age:</span>22
                 </li>
                 <li className="border-0">
                   <span className="fw-600 me-2">Based in:</span>Austin, Texas

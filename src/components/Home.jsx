@@ -1,6 +1,5 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import videobg from "../videos/home.mp4";
 
 const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
   return (
@@ -14,34 +13,25 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
           style={{ backgroundImage: 'url("images/intro-bg.jpg")' }}
         ></div>
 
-        {/* -------------------video background---------------------- */}
-
-        {/* <div className="player hero-bg parallax">
-          <video
-            src={videobg}
-            autoPlay
-            muted
-            loop
-            style={{ width: "100%", height: "100vh", objectFit: "cover" }}
-          ></video>
-        </div> */}
-
         <div className="hero-content section d-flex min-vh-100">
           <div className="container my-auto">
             <div className="row">
               <div className="col-12 text-center">
-                <p className="text-7 fw-500 text-white mb-2 mb-md-3">Welcome</p>
-                <h2 className="text-16 fw-600 text-white mb-2 mb-md-3">
+                <p className="text-9 fw-500 text-white mb-2 mb-md-3">Warm Greetings!</p>
+                <p className="text-16 fw-500 text-white mb-2 mb-md-3">I'm Shaojie Hou</p>
+                <h2 className="text-10 fw-600 text-light mb-2 mb-md-3">
+
                   <Typewriter
                     options={{
                       strings: [
-                        "I'm Shaojie Hou,",
                         "future Software Engineer,",
-                        "Photographer,",
-                        "and more...",
+                        "Photography enthusiast,",
+                        "and Seeker of knowledge!",
                       ],
                       autoStart: true,
                       loop: true,
+                      delay: 30, // Speed of typing
+                      deleteSpeed: 20 // Speed of deleting
                     }}
                   />
                 </h2>
