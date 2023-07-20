@@ -24,7 +24,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "React, Flask, PostgreSQL, Google Cloud Platform, RESTful APIs",
       industry: "Web Development",
       url: {
-        name: "www.example.com",
+        name: "github.com/Sean-hsj",
         link: "https://github.com/Sean-hsj",
       },
       socialLinks: {
@@ -47,7 +47,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "Swift, CoreData, Firebase, SwiftUI, CoreAudio, MapKit Framework",
       industry: "Mobile App Development",
       url: {
-        name: "www.example.com",
+        name: "github.com/Sean-hsj",
         link: "https://github.com/Sean-hsj",
       },
       socialLinks: {
@@ -69,7 +69,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       technologies: "JavaScript, HTML, CSS/Bootstrap, PHP, MySQL",
       industry: "Web Development",
       url: {
-        name: "www.example.com",
+        name: "github.com/Sean-hsj",
         link: "https://github.com/Sean-hsj",
       },
       socialLinks: {
@@ -91,7 +91,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       technologies: "Python, Panda, Scikit-learn, NumPy, TensorFlow",
       industry: "Data Analysis",
       url: {
-        name: "www.example.com",
+        name: "github.com/Sean-hsj",
         link: "https://github.com/Sean-hsj",
       },
       socialLinks: {
@@ -113,7 +113,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       technologies: "iOS, HTML5, CSS3, PHP, Java",
       industry: "Data Analysis",
       url: {
-        name: "www.example.com",
+        name: "github.com/Sean-hsj",
         link: "https://github.com/Sean-hsj",
       },
       socialLinks: {

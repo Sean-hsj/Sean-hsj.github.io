@@ -150,6 +150,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
               </li>
             </ul>
           </div>
+          
           <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
             <li className="social-icons-facebook">
               <Tooltip text="Facebook" placement="top">
@@ -162,32 +163,32 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                 </a>
               </Tooltip>
             </li>
-            <li className="social-icons-twitter">
-              <Tooltip text="Twitter" placement="top">
+            <li className="social-icons-instagram">
+              <Tooltip text="Instagram" placement="top">
                 <a
-                  href="http://www.twitter.com/"
+                  href="https://www.instagram.com/sean.nef/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fab fa-twitter" />
+                  <i className="fab fa-instagram" />
                 </a>
               </Tooltip>
             </li>
-            <li className="social-icons-dribbble">
-              <Tooltip text="Dribbble" placement="top">
+            <li className="social-icons-linkedin">
+              <Tooltip text="Linkedin" placement="top">
                 <a
-                  href="http://www.dribbble.com/"
+                  href="https://www.linkedin.com/in/shaojie-hou/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fab fa-dribbble" />
+                  <i className="fab fa-linkedin" />
                 </a>
               </Tooltip>
             </li>
             <li className="social-icons-github">
-              <Tooltip text="Google" placement="top">
+              <Tooltip text="Github" placement="top">
                 <a
-                  href="http://www.google.com/"
+                  href="https://github.com/Sean-hsj"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
