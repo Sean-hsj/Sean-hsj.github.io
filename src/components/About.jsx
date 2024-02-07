@@ -37,7 +37,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               at UC San Diego.
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-            I'm an incoming MS ECE student at UC San Diego, specializing in Computer Engineering. 
+            I'm a first-year MS ECE student at UC San Diego, specializing in Computer Engineering. 
             I hold a bachelor's degree in Mathematics from the University of Texas at Austin, 
             where I developed a strong foundation in analytical thinking and problem-solving.
             </p>
